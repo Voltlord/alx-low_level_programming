@@ -1,7 +1,3 @@
-Advanced task 3...
-
-
-
 #include <stdio.h>
 
 /**
