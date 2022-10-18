@@ -1,9 +1,11 @@
+Advanced task 3...
+
+
+
 #include <stdio.h>
 
 /**
 * main - Entry point
-*
-*To produce combinations of 2 digits
 *
 * Return: Always 0 (Success)
 */
@@ -20,6 +22,12 @@ int main(void)
                         putchar(' ');
                         putchar((num2 / 10) + '0');
                         putchar((num2 % 10) + '0');
-		}
-	}
+                        if (num1 == 98 && num2 == 99)
+                                continue;
+                        putchar(',');
+                        putchar(' ');
+                }
+        }
+        putchar('\n');
+        return (0);
 }
