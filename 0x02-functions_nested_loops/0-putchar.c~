@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+/*
+ *Printing _putchar
+ *
+ *main is the entry point
+ *
+ *Return zero if successful
+*/
+
+int main(void)
+{
+	printf("_putchar\n");
+
+	return (0);
+}
